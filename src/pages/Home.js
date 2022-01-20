@@ -27,11 +27,11 @@ const Home = () => {
   return (
     <>
       <div className="bg-slate-900 h-screen grid md:grid-cols-2 flex-col justify-center items-center">
-        <div class="lg:text-8xl md:text-6xl sm:text-4xl text-3xl ml-12 font-roboto">
-          <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-pink-200">
-            Hi, <br /> I'm Kimberly,
-          </span>
-          <h1 className="lg:text-6xl md:text-4xl sm:text-2xl text-xl text-pink-200">
+        <div className="mx-12">
+          <h1 className="lg:text-8xl md:text-8xl sm:text-7xl text-5xl text-pink-400 font-roboto">
+            Hi, <br /> I'm Kimberly, <br />
+          </h1>
+          <h1 className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-200 font-roboto">
             {" "}
             <span ref={typedIntro}></span>{" "}
           </h1>
