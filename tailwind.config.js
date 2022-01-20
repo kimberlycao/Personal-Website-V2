@@ -1,8 +1,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: "'Roboto', sans-serif",
+        source: "'Source Sans Pro', sans-serif",
+      },
+    },
   },
   plugins: [],
 };
