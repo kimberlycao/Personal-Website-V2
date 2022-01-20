@@ -1,12 +1,12 @@
 const ContactForm = () => {
   return (
-    <div className="mx-12">
-      <h1 className="text-4xl my-12 text-pink-400 font-roboto">Contact Me</h1>
+    <div className="m-12">
+      <h1 className="text-4xl my-12 text-pink-300 font-roboto">Contact Me</h1>
       <form class="w-full max-w-lg">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-pink-300 text-xs font-bold mb-2"
               for="grid-first-name"
             >
               First Name
@@ -19,7 +19,7 @@ const ContactForm = () => {
           </div>
           <div class="w-full md:w-1/2 px-3">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-pink-300 text-xs font-bold mb-2"
               for="grid-last-name"
             >
               Last Name
@@ -34,7 +34,7 @@ const ContactForm = () => {
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-pink-300 text-xs font-bold mb-2"
               for="grid-password"
             >
               E-mail
@@ -49,7 +49,7 @@ const ContactForm = () => {
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block uppercase tracking-wide text-pink-300 text-xs font-bold mb-2"
               for="grid-password"
             >
               Message
@@ -63,7 +63,7 @@ const ContactForm = () => {
         <div class="md:flex md:items-center">
           <div class="md:w-1/3">
             <button
-              class="shadow text-white hover:text-pink-400 focus:shadow-outline focus:outline-none bg-pink-400 hover:bg-white font-bold py-2 px-4 rounded"
+              class="shadow text-white hover:text-pink-300 focus:shadow-outline focus:outline-none bg-pink-300 hover:bg-white font-bold py-2 px-4 rounded"
               type="button"
             >
               Send

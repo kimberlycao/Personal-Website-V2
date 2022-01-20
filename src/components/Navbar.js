@@ -5,17 +5,15 @@ const Navbar = () => {
   const [showSideNav, setShowSideNav] = useState(false);
   return (
     <nav
-      className="flex justify-between items-center h-16 bg-slate-900 relative shadow-lg"
+      className="flex justify-between items-center h-20 bg-my-gray shadow-xl fixed left-0 right-0"
       role="navigation"
     >
-      <Link to="/" className="pl-8 text-pink-400 font-roboto">
+      <Link to="/" className="pl-8 text-white font-roboto">
         KC
       </Link>
       <div className="px-4 cursor-pointer md:hidden">
         <svg
-          className="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
+          className="w-6 h-6 stroke-pink-400"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
