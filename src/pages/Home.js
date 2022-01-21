@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="bg-my-gray h-screen grid md:grid-cols-2 grid-cols-1 flex-col justify-center items-center">
+      <div className="h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
         <div className="mx-12 h-screen flex flex-col justify-center">
           <h1 className="lg:text-8xl md:text-8xl sm:text-7xl text-5xl text-pink-400 font-roboto">
             Hi, <br /> I'm Kimberly, <br />
