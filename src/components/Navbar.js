@@ -9,7 +9,7 @@ const Navbar = () => {
       role="navigation"
     >
       <Link to="/" className="pl-8 text-white font-roboto">
-        KC
+        Kimberly Cao | Software Engineer
       </Link>
       <div className="px-4 cursor-pointer md:hidden">
         <svg

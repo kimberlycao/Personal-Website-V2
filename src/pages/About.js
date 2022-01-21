@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SkillsCloud from "../components/SkillsCloud";
 
 const About = () => {
@@ -7,23 +8,23 @@ const About = () => {
       <div className="h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
         <div className="mx-12 h-screen flex flex-col justify-center">
           <div className="p-12">
-            <div className="pb-4 flex">
-              <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
+            <div className="pb-6 flex">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
                 W
               </span>
-              <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
                 h
               </span>
-              <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto pr-4 hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla pr-4 hover:animate-bounce">
                 o
               </span>
-              <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto pr-4 hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla pr-4 hover:animate-bounce">
                 I
               </span>
-              <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
                 A
               </span>
-              <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
                 m
               </span>
             </div>
@@ -42,6 +43,9 @@ const About = () => {
               watching reruns of The Office. I also enjoy playing Tetris and
               Teamfight Tactics.
             </p>
+            <div className="text-pink-400 pt-6 font-source lg:text-xl md:text-xl sm:text-lg text-lg">
+              <Link to="/projects">Check out my projects!</Link>
+            </div>
           </div>
         </div>
         <div className="bg-my-gray text-white font-bold h-screen flex flex-col justify-center items-center">

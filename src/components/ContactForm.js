@@ -1,12 +1,40 @@
 const ContactForm = () => {
   return (
-    <div className="m-12">
-      <h1 className="text-4xl my-12 text-pink-400 font-roboto">Contact Me</h1>
+    <div className="m-5">
+      <div className="pb-6 flex">
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce">
+          C
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce">
+          o
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla marker:selection:hover:animate-bounce">
+          n
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce">
+          t
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce">
+          a
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce">
+          c
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce pr-4">
+          t
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce">
+          M
+        </span>
+        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-karla hover:animate-bounce">
+          e
+        </span>
+      </div>
       <form class="w-full max-w-lg">
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block tracking-wide text-pink-400 text-xs font-bold mb-2"
               for="grid-first-name"
             >
               First Name
@@ -19,7 +47,7 @@ const ContactForm = () => {
           </div>
           <div class="w-full md:w-1/2 px-3">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block tracking-wide text-pink-400 text-xs font-bold mb-2"
               for="grid-last-name"
             >
               Last Name
@@ -34,7 +62,7 @@ const ContactForm = () => {
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block tracking-wide text-pink-400 text-xs font-bold mb-2"
               for="grid-password"
             >
               E-mail
@@ -49,7 +77,7 @@ const ContactForm = () => {
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label
-              class="block uppercase tracking-wide text-pink-400 text-xs font-bold mb-2"
+              class="block tracking-wide text-pink-400 text-xs font-bold mb-2"
               for="grid-password"
             >
               Message
