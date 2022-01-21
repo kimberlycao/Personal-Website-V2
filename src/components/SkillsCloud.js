@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import TagCloud from "TagCloud";
 
-const SkillsCloud = (props) => {
+const SkillsCloud = () => {
   const cloud = useRef(null);
 
   const myTags = [
@@ -23,8 +23,8 @@ const SkillsCloud = (props) => {
 
   useEffect(() => {
     var tagCloud = TagCloud(cloud.current, myTags, {
-      radius: props.size,
-      maxSpeed: "normal",
+      radius: 300,
+      maxSpeed: "fast",
       initSpeed: "normal",
       direction: 135,
       keep: true,
