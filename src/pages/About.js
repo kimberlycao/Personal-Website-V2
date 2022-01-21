@@ -9,22 +9,22 @@ const About = () => {
         <div className="mx-12 h-screen flex flex-col justify-center">
           <div className="p-12">
             <div className="pb-6 flex">
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
                 W
               </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
                 h
               </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla pr-4 hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto pr-4 hover:animate-bounce">
                 o
               </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla pr-4 hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto pr-4 hover:animate-bounce">
                 I
               </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
                 A
               </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-karla hover:animate-bounce">
+              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
                 m
               </span>
             </div>

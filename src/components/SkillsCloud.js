@@ -24,7 +24,7 @@ const SkillsCloud = () => {
   useEffect(() => {
     var tagCloud = TagCloud(cloud.current, myTags, {
       radius: 300,
-      maxSpeed: "fast",
+      maxSpeed: "normal",
       initSpeed: "normal",
       direction: 135,
       keep: true,

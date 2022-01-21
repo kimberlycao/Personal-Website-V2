@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ResumeButton from "./ResumeButton";
 
 const Navbar = () => {
   const [showSideNav, setShowSideNav] = useState(false);
@@ -54,7 +55,7 @@ const Navbar = () => {
           className="p-4 text-white hover:text-pink-400 font-roboto"
           to="/resume"
         >
-          Resume
+          View Resume
         </Link>
       </div>
     </nav>
