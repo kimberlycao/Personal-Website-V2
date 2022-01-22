@@ -25,8 +25,11 @@ const ContactForm = () => {
 
   return (
     <div className="m-5">
-      <div className="pb-6 flex">
+      <div className="pb-4 flex">
         <AnimatedHeader word={"Contact"} />
+      </div>
+      <div className="font-source text-white lg:text-xl md:text-xl sm:text-lg text-md pb-6">
+        Have a question? Send me a message and I'll get back to you!
       </div>
       <form className="w-full max-w-lg" onSubmit={sendEmail}>
         <div className="flex flex-wrap -mx-3 mb-6">

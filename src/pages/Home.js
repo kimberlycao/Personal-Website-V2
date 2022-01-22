@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import ResumeButton from "../components/ResumeButton";
-import { Link } from "react-router-dom";
 
 const Home = () => {
   const typedIntro = useRef(null);
@@ -43,7 +42,7 @@ const Home = () => {
             <ResumeButton />
           </div>
         </div>
-        <div className="bg-blue-200 h-screen flex flex-col justify-center items-center"></div>
+        <div className="h-screen flex flex-col justify-center items-center"></div>
       </div>
     </>
   );

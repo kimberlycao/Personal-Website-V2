@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import ResumeButton from "./ResumeButton";
 
 const Navbar = () => {
-  const [showSideNav, setShowSideNav] = useState(false);
   return (
     <nav
       className="flex justify-between items-center h-20 bg-my-gray shadow-xl fixed left-0 right-0"
@@ -52,10 +50,14 @@ const Navbar = () => {
           Contact
         </Link>
         <Link
-          className="p-4 text-white hover:text-pink-400 font-roboto"
-          to="/resume"
+          className="p-4"
+          to="/static/KimberlyCaoResume2021.pdf"
+          target="_blank"
+          download
         >
-          View Resume
+          <button className="bg-gray-800 hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 rounded-lg px-4 py-2 text-center">
+            <div className="text-white font-roboto">Resume</div>
+          </button>
         </Link>
       </div>
     </nav>
