@@ -31,7 +31,7 @@ const About = () => {
               watching reruns of The Office. I also enjoy playing Tetris and
               Teamfight Tactics.
             </p>
-            <div className="text-pink-400 pt-6 font-source lg:text-xl md:text-xl sm:text-lg text-lg">
+            <div className="text-pink-400 pt-6 font-source lg:text-xl md:text-xl sm:text-lg text-md">
               <Link to="/projects">Check out my projects!</Link>
             </div>
           </div>
