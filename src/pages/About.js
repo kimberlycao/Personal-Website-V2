@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AnimatedHeader from "../components/AnimatedHeader";
 import SkillsCloud from "../components/SkillsCloud";
 
 const About = () => {
@@ -9,26 +10,13 @@ const About = () => {
         <div className="mx-12 h-screen flex flex-col justify-center">
           <div className="p-12">
             <div className="pb-6 flex">
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
-                W
-              </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
-                h
-              </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto pr-4 hover:animate-bounce">
-                o
-              </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto pr-4 hover:animate-bounce">
-                I
-              </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
-                A
-              </span>
-              <span className="lg:text-7xl md:text-7xl sm:text-6xl text-4xl text-pink-400 font-roboto hover:animate-bounce">
-                m
-              </span>
+              <AnimatedHeader word={"Who"} />
+              <span className="w-3" />
+              <AnimatedHeader word={"Am"} />
+              <span className="w-3" />
+              <AnimatedHeader word={"I"} />
             </div>
-            <p className="font-source text-white lg:text-xl md:text-xl sm:text-lg text-lg">
+            <p className="font-source text-white lg:text-xl md:text-xl sm:text-lg text-md">
               Hi there! My name is Kimberly and I'm a final year student at the
               University of Toronto and this year's UTM Robotics' projects
               coordinator.

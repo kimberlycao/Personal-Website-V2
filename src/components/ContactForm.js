@@ -1,28 +1,10 @@
+import AnimatedHeader from "./AnimatedHeader";
+
 const ContactForm = () => {
   return (
     <div className="m-5">
       <div className="pb-6 flex">
-        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
-          C
-        </span>
-        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
-          o
-        </span>
-        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto marker:selection:hover:animate-bounce">
-          n
-        </span>
-        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
-          t
-        </span>
-        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
-          a
-        </span>
-        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce">
-          c
-        </span>
-        <span className="lg:text-6xl md:text-6xl sm:text-5xl text-3xl text-pink-400 font-roboto hover:animate-bounce pr-4">
-          t
-        </span>
+        <AnimatedHeader word={"Contact"} />
       </div>
       <form class="w-full max-w-lg">
         <div class="flex flex-wrap -mx-3 mb-6">
@@ -62,10 +44,10 @@ const ContactForm = () => {
             ></textarea>
           </div>
         </div>
-        <div class="md:flex md:items-center">
+        <div>
           <div class="md:w-1/3">
             <button
-              class="shadow text-white hover:text-pink-400 focus:shadow-outline focus:outline-none bg-pink-400 hover:bg-white font-bold py-2 px-4 rounded-full"
+              class="shadow text-my-gray hover:text-pink-400 focus:shadow-outline focus:outline-none bg-pink-400 hover:bg-my-gray font-bold py-2 px-4 rounded-full"
               type="button"
             >
               Send Message
