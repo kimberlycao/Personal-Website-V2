@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <nav
       className="flex justify-between items-center h-20 bg-my-gray shadow-xl fixed left-0 right-0"
@@ -10,7 +10,7 @@ const Navbar = () => {
       <Link to="/" className="pl-8 text-white font-roboto">
         Kimberly Cao | Software Engineer
       </Link>
-      <div className="px-4 cursor-pointer md:hidden">
+      <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
           className="w-6 h-6 stroke-pink-400"
           viewBox="0 0 24 24"
