@@ -27,8 +27,8 @@ const Home = () => {
 
   return (
     <>
-      <div className="h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
-        <div className="mx-12 h-screen flex flex-col justify-center items-start">
+      <div className="min-h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
+        <div className="mx-12 min-h-screen flex flex-col justify-center items-start">
           <div>
             <h1 className="lg:text-8xl md:text-8xl sm:text-7xl text-5xl text-pink-400 font-roboto">
               Hi, <br /> I'm Kimberly, <br />
@@ -42,7 +42,7 @@ const Home = () => {
             <ResumeButton />
           </div>
         </div>
-        <div className="h-screen flex flex-col justify-center items-center"></div>
+        <div className="min-h-screen flex flex-col justify-center items-center"></div>
       </div>
     </>
   );

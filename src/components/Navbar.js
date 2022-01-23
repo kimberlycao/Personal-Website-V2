@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 const Navbar = ({ toggle }) => {
   return (
     <nav
-      className="flex justify-between items-center h-20 bg-my-gray shadow-xl fixed left-0 right-0"
+      className="flex justify-between items-center h-20 bg-my-gray shadow-xl fixed z-50 left-0 right-0"
       role="navigation"
     >
       <Link to="/" className="pl-8 text-white font-roboto">
-        Kimberly Cao | Software Engineer
+        <div>Kimberly Cao |</div>
+        <div>Software Engineer</div>
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg

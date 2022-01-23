@@ -6,8 +6,8 @@ import SkillsCloud from "../components/SkillsCloud";
 const About = () => {
   return (
     <>
-      <div className="h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
-        <div className="mx-12 h-screen flex flex-col justify-center">
+      <div className="min-h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
+        <div className="mx-12 min-h-screen flex flex-col justify-center">
           <div className="p-12">
             <div className="pb-6 flex">
               <AnimatedHeader word={"Who"} />
@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="bg-my-gray text-white font-bold h-screen flex flex-col justify-center items-center">
+        <div className="bg-my-gray text-white font-bold min-h-screen flex flex-col justify-center items-center">
           <SkillsCloud />
         </div>
       </div>

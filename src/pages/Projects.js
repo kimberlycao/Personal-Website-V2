@@ -1,6 +1,11 @@
+import AnimatedHeader from "../components/AnimatedHeader";
+import ProjectsList from "../components/ProjectsList";
+
 const Projects = () => {
   return (
-    <div className="h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray"></div>
+    <div className="min-h-screen bg-my-gray pt-24">
+      <ProjectsList />
+    </div>
   );
 };
 
