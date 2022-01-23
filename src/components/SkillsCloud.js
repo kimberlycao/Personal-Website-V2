@@ -33,7 +33,7 @@ const SkillsCloud = () => {
     return () => {
       tagCloud.destroy();
     };
-  }, []);
+  });
   return <span ref={cloud}></span>;
 };
 

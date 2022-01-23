@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
     >
       <Link to="/" className="pl-8 text-white font-roboto">
         <div>Kimberly Cao |</div>
-        <div>Software Engineer</div>
+        <div className="font-source text-pink-400">Software Engineer</div>
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
@@ -40,9 +40,9 @@ const Navbar = ({ toggle }) => {
         </Link>
         <Link
           className="p-4 text-white hover:text-pink-400 font-roboto"
-          to="/mythoughts"
+          to="/blog"
         >
-          My Thoughts
+          Blog
         </Link>
         <Link
           className="p-4 text-white hover:text-pink-400 font-roboto"

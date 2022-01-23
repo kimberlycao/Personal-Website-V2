@@ -5,7 +5,7 @@ const NavDropdown = ({ isOpen, toggle }) => {
     <div
       className={
         isOpen
-          ? "grid grid-rows-5 text-center items-center bg-my-gray"
+          ? "grid grid-rows-5 text-center items-center bg-my-gray pt-20"
           : "hidden"
       }
       onClick={toggle}

@@ -1,4 +1,3 @@
-import AnimatedHeader from "../components/AnimatedHeader";
 import ProjectsList from "../components/ProjectsList";
 
 const Projects = () => {
