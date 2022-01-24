@@ -55,17 +55,15 @@ const ProjectsList = () => {
       </p>
       <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {projects.map((project, index) => (
-          <div key={index}>
-            <ProjectCard
-              name={project.name}
-              description={project.description}
-              techStack={project.techStack}
-              githubLink={project.githubLink}
-              devpostLink={project.devpostLink}
-              imageURL={project.projectImageCollection.items[0].url}
-              index={index}
-            />
-          </div>
+          <ProjectCard
+            name={project.name}
+            description={project.description}
+            techStack={project.techStack}
+            githubLink={project.githubLink}
+            devpostLink={project.devpostLink}
+            imageURL={project.projectImageCollection.items[0].url}
+            index={index}
+          />
         ))}
       </div>
     </div>
