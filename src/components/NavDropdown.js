@@ -5,7 +5,7 @@ const NavDropdown = ({ isOpen, toggle }) => {
     <div
       className={
         isOpen
-          ? "grid grid-rows-5 text-center items-center bg-my-gray pt-20"
+          ? "grid grid-rows-5 text-center items-center bg-my-gray"
           : "hidden"
       }
       onClick={toggle}
@@ -24,7 +24,7 @@ const NavDropdown = ({ isOpen, toggle }) => {
       </Link>
       <Link
         className="p-4 text-white hover:text-pink-400 font-roboto"
-        to="/mythoughts"
+        to="/blog"
       >
         My Thoughts
       </Link>

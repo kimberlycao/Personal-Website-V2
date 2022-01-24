@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
 import NavDropdown from "./components/NavDropdown";
+import Blog from "./pages/Blog";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

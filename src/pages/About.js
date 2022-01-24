@@ -7,8 +7,8 @@ const About = () => {
   return (
     <>
       <div className="min-h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
-        <div className="mx-12 min-h-screen flex flex-col justify-center">
-          <div className="p-12">
+        <div className="min-h-screen flex flex-col justify-center items-center m-4">
+          <div>
             <div className="pb-6 flex">
               <AnimatedHeader word={"Who"} />
               <span className="w-3" />
@@ -36,7 +36,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="bg-my-gray text-white font-bold min-h-screen flex flex-col justify-center items-center">
+        <div className="text-white font-bold font-source min-h-screen w-full hidden flex-col justify-center items-center md:flex m-4">
           <SkillsCloud />
         </div>
       </div>

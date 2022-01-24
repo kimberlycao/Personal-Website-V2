@@ -7,11 +7,11 @@ const ProjectCard = (props) => {
       <div className="w-full overflow-hidden rounded-t-md">
         <img className="object-cover" src={props.imageURL} alt={props.index} />
       </div>
-      <h2 class="mb-2 block text-lg text-gray-800 font-bold font-roboto px-2 pt-2">
+      <h2 class="block text-lg text-gray-800 font-bold font-roboto p-4">
         {props.name}
       </h2>
-      <p class="text-md px-2">{props.description}</p>
-      <div class="flex flex-wrap p-2 mt-auto text-xs">
+      <p class="text-md px-4 pb-2">{props.description}</p>
+      <div class="flex flex-wrap mt-auto text-xs p-4">
         {props.techStack.split(",").map((tech, index) => (
           <span key={index}>
             <Tag word={tech} />
@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
       <div>
         {props.githubLink ? (
           <a href={props.githubLink} target="_blank" rel="noreferrer">
-            <button className="inline-flex items-center px-3.5 py-2.5 text-sm font-medium text-center text-white bg-gray-900 hover:bg-gray-700 rounded-full font-roboto m-2">
+            <button className="inline-flex items-center px-3.5 py-2.5 text-sm font-medium text-center text-pink-700 bg-pink-200 hover:bg-pink-300 rounded-full font-roboto ml-4 mb-4">
               <span className="inline-flex mr-2">
                 <SiGithub />
               </span>
@@ -31,7 +31,7 @@ const ProjectCard = (props) => {
         ) : null}
         {props.devpostLink ? (
           <a href={props.devpostLink} target="_blank" rel="noreferrer">
-            <button className="inline-flex items-center px-3.5 py-2.5 text-sm font-medium text-center text-white bg-gray-900 hover:bg-gray-700 rounded-full font-roboto m-2">
+            <button className="inline-flex items-center px-3.5 py-2.5 text-sm font-medium text-center text-pink-700 bg-pink-200 hover:bg-pink-300 rounded-full font-roboto ml-4 mb-4">
               <span className="inline-flex mr-2">
                 <SiDevpost />
               </span>

@@ -46,11 +46,11 @@ const ProjectsList = () => {
   if (!projects) return null;
 
   return (
-    <div className="m-4">
+    <div className="p-4">
       <div className="flex mb-5">
         <AnimatedHeader word={"Projects"} />
       </div>
-      <p className="text-white mb-5 font-roboto">
+      <p className="font-source text-white lg:text-lg md:text-lg sm:text-md text-sm mb-5">
         Learn more by clicking on the Github/Devpost link!
       </p>
       <div className="grid 2xl:grid-cols-6 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
