@@ -9,7 +9,10 @@ const Navbar = ({ toggle }) => {
     >
       <Link to="/" className="pl-8 text-white font-roboto">
         <div>Kimberly Cao |</div>
-        <div className="font-source text-pink-400">Software Engineer</div>
+        <div className="font-source text-pink-400 hidden md:block">
+          Software Engineer
+        </div>
+        <div className="font-source text-pink-400 md:hidden">SWE</div>
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
@@ -26,40 +29,71 @@ const Navbar = ({ toggle }) => {
         </svg>
       </div>
       <div className="pr-8 shadow-lg md:block hidden">
-        <Link
-          className="p-4 text-white hover:text-pink-400 font-roboto"
-          to="/about"
-        >
-          About
-        </Link>
-        <Link
-          className="p-4 text-white hover:text-pink-400 font-roboto"
-          to="/projects"
-        >
-          Projects
-        </Link>
-        <Link
-          className="p-4 text-white hover:text-pink-400 font-roboto"
-          to="/blog"
-        >
-          Blog
-        </Link>
-        <Link
-          className="p-4 text-white hover:text-pink-400 font-roboto"
-          to="/contact"
-        >
-          Contact
-        </Link>
-        <Link
-          className="p-4"
-          to="/static/KimberlyCaoResume2021.pdf"
-          target="_blank"
-          download
-        >
-          <button className="bg-gray-800 hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 rounded-lg px-4 py-2 text-center">
-            <div className="text-white font-roboto">Resume</div>
-          </button>
-        </Link>
+        <ul className="flex">
+          <li className="ml-16">
+            <Link
+              className="p-4 text-white hover:text-pink-400 font-roboto"
+              to="/about"
+            >
+              <div className="flex items-center justify-end">
+                <div className="w-10 border-b border-solid border-white"></div>
+                <h1 className="ml-3 text-xl font-bold">1.</h1>
+              </div>
+              <div className="text-right">About</div>
+            </Link>
+          </li>
+          <li className="ml-16">
+            <Link
+              className="p-4 text-white hover:text-pink-400 font-roboto"
+              to="/projects"
+            >
+              <div className="flex items-center justify-end">
+                <div className="w-10 border-b border-solid border-white"></div>
+                <h1 className="ml-3 text-xl font-bold">2.</h1>
+              </div>
+              <div className="text-right">Projects</div>
+            </Link>
+          </li>
+          <li className="ml-16">
+            <Link
+              className="p-4 text-white hover:text-pink-400 font-roboto"
+              to="/blog"
+            >
+              <div className="flex items-center justify-end">
+                <div className="w-10 border-b border-solid border-white"></div>
+                <h1 className="ml-3 text-xl font-bold">3.</h1>
+              </div>
+              <div className="text-right">Blog</div>
+            </Link>
+          </li>
+
+          <li className="ml-16">
+            <Link
+              className="p-4 text-white hover:text-pink-400 font-roboto"
+              to="/contact"
+            >
+              <div className="flex items-center justify-end">
+                <div className="w-10 border-b border-solid border-white"></div>
+                <h1 className="ml-3 text-xl font-bold">4.</h1>
+              </div>
+              <div className="text-right">Contact</div>
+            </Link>
+          </li>
+          <li className="ml-12 mt-4">
+            <div className="flex items-center justify-end">
+              <Link
+                className="p-4"
+                to="/static/KimberlyCaoResume2021.pdf"
+                target="_blank"
+                download
+              >
+                <button className="bg-gray-800 hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 rounded-lg px-4 py-2 text-center">
+                  <div className="text-white font-roboto">Resume</div>
+                </button>
+              </Link>
+            </div>
+          </li>
+        </ul>
       </div>
     </nav>
   );

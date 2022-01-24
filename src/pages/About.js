@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className="min-h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
-        <div className="min-h-screen flex flex-col justify-center items-center m-4">
+        <div className="min-h-screen flex flex-col justify-center items-center m-6">
           <div>
             <div className="pb-6 flex">
               <AnimatedHeader word={"Who"} />
@@ -16,7 +16,7 @@ const About = () => {
               <span className="w-3" />
               <AnimatedHeader word={"I"} />
             </div>
-            <p className="font-source text-white lg:text-xl md:text-xl sm:text-lg text-md">
+            <p className="font-source text-white lg:text-lg sm:text-md">
               Hi there! My name is Kimberly and I'm a final year student at the
               University of Toronto and this year's UTM Robotics' projects
               coordinator.
@@ -31,12 +31,12 @@ const About = () => {
               watching reruns of The Office. I also enjoy playing Tetris and
               Teamfight Tactics.
             </p>
-            <div className="text-pink-400 pt-6 font-source lg:text-xl md:text-xl sm:text-lg text-md">
+            <div className="text-pink-400 pt-6 font-source lg:text-lg sm:text-md">
               <Link to="/projects">Check out my projects!</Link>
             </div>
           </div>
         </div>
-        <div className="text-white font-bold font-source min-h-screen w-full hidden flex-col justify-center items-center md:flex m-4">
+        <div className="text-white font-bold font-source min-h-screen w-full hidden flex-col justify-center items-center md:flex">
           <SkillsCloud />
         </div>
       </div>

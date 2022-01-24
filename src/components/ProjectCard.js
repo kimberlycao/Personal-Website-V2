@@ -3,15 +3,15 @@ import { SiDevpost, SiGithub } from "react-icons/si";
 
 const ProjectCard = (props) => {
   return (
-    <div class="col-span-1 rounded-md flex flex-col bg-white hover:-translate-y-3 duration-200 cursor-pointer">
+    <div className="col-span-1 rounded-md flex flex-col bg-neutral-50 hover:-translate-y-3 duration-200 cursor-pointer">
       <div className="w-full overflow-hidden rounded-t-md">
         <img className="object-cover" src={props.imageURL} alt={props.index} />
       </div>
-      <h2 class="block text-lg text-gray-800 font-bold font-roboto p-4">
+      <h2 className="block text-lg text-gray-800 font-bold font-roboto p-4">
         {props.name}
       </h2>
-      <p class="text-md px-4 pb-2">{props.description}</p>
-      <div class="flex flex-wrap mt-auto text-xs p-4">
+      <p className="text-md px-4 pb-2">{props.description}</p>
+      <div className="flex flex-wrap mt-auto text-xs p-4">
         {props.techStack.split(",").map((tech, index) => (
           <span key={index}>
             <Tag word={tech} />
