@@ -6,8 +6,6 @@ import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
 import NavDropdown from "./components/NavDropdown";
-import Blog from "./pages/Blog";
-import Map from "./components/Map";
 import SocialMediaLinks from "./components/SocialMediaLinks";
 import Custom404 from "./pages/Custom404";
 
