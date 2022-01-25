@@ -28,7 +28,7 @@ const ContactForm = () => {
       <div className="pb-4 flex">
         <AnimatedHeader word={"Contact"} />
       </div>
-      <div className="font-source text-white lg:text-xl md:text-xl sm:text-lg text-md pb-6">
+      <div className="font-source text-white lg:text-lg md:text-lg sm:text-md text-sm mb-5">
         Have a question? Send me a message and I'll get back to you!
       </div>
       <form className="w-full max-w-lg" onSubmit={sendEmail}>

@@ -1,4 +1,6 @@
+import React from "react";
 import ContactForm from "../components/ContactForm";
+import Map from "../components/Map";
 
 const Contact = () => {
   return (
@@ -6,7 +8,9 @@ const Contact = () => {
       <div className="min-h-screen flex flex-col justify-center items-center">
         <ContactForm />
       </div>
-      <div className="min-h-screen w-full flex flex-col justify-center items-center"></div>
+      <div className="min-h-screen w-full flex flex-col justify-center items-center overflow-hidden">
+        <Map />
+      </div>
     </div>
   );
 };

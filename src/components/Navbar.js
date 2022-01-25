@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({ toggle }) => {
   return (
     <nav
-      className="flex justify-between items-center h-20 bg-my-gray shadow-xl z-50 left-0 right-0"
+      className="flex justify-between items-center h-20 bg-my-gray shadow-2xl z-50 left-0 right-0"
       role="navigation"
     >
       <Link to="/" className="pl-8 text-white font-roboto">
@@ -28,7 +28,7 @@ const Navbar = ({ toggle }) => {
           />
         </svg>
       </div>
-      <div className="pr-8 shadow-lg md:block hidden">
+      <div className="pr-8 md:block hidden">
         <ul className="flex">
           <li className="ml-16">
             <Link

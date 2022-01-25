@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./pages/Projects";
 import NavDropdown from "./components/NavDropdown";
 import Blog from "./pages/Blog";
+import Map from "./components/Map";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +38,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/test" element={<Map />} />
       </Routes>
     </Router>
   );
