@@ -47,7 +47,11 @@ const Home = () => {
         <div className="min-h-screen flex-col justify-center items-center md:p-12 p-4 overflow-hidden flex">
           <div className="flex relative w-full max-w-lg items-center">
             <AnimatedBackground />
-            <img className="absolute rounded-full" src={profileImage}></img>
+            <img
+              className="absolute rounded-full"
+              src={profileImage}
+              alt="Profile"
+            ></img>
           </div>
         </div>
       </div>
