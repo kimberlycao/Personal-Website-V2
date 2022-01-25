@@ -9,6 +9,7 @@ import NavDropdown from "./components/NavDropdown";
 import Blog from "./pages/Blog";
 import Map from "./components/Map";
 import SocialMediaLinks from "./components/SocialMediaLinks";
+import Custom404 from "./pages/Custom404";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
