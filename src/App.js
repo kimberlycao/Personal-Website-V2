@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import NavDropdown from "./components/NavDropdown";
 import Blog from "./pages/Blog";
 import Map from "./components/Map";
+import SocialMediaLinks from "./components/SocialMediaLinks";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,13 +33,13 @@ function App() {
     <Router>
       <Navbar toggle={toggle} />
       <NavDropdown isOpen={isOpen} toggle={toggle} />
+      <SocialMediaLinks />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/blog" element={<Blog />} />
+        {/* <Route path="/blog" element={<Blog />} /> */}
         <Route path="/contact" element={<Contact />} />
-        <Route path="/test" element={<Map />} />
       </Routes>
     </Router>
   );

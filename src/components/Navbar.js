@@ -54,18 +54,6 @@ const Navbar = ({ toggle }) => {
               <div className="text-right">Projects</div>
             </Link>
           </li>
-          <li className="ml-16">
-            <Link
-              className="p-4 text-white hover:text-pink-400 font-roboto"
-              to="/blog"
-            >
-              <div className="flex items-center justify-end">
-                <div className="w-10 border-b border-solid border-white"></div>
-                <h1 className="ml-3 text-xl font-bold">3.</h1>
-              </div>
-              <div className="text-right">Blog</div>
-            </Link>
-          </li>
 
           <li className="ml-16">
             <Link
@@ -74,11 +62,23 @@ const Navbar = ({ toggle }) => {
             >
               <div className="flex items-center justify-end">
                 <div className="w-10 border-b border-solid border-white"></div>
-                <h1 className="ml-3 text-xl font-bold">4.</h1>
+                <h1 className="ml-3 text-xl font-bold">3.</h1>
               </div>
               <div className="text-right">Contact</div>
             </Link>
           </li>
+          {/* <li className="ml-16">
+            <Link
+              className="p-4 text-white hover:text-pink-400 font-roboto"
+              to="/blog"
+            >
+              <div className="flex items-center justify-end">
+                <div className="w-10 border-b border-solid border-white"></div>
+                <h1 className="ml-3 text-xl font-bold">4.</h1>
+              </div>
+              <div className="text-right">Blog</div>
+            </Link>
+          </li> */}
           <li className="ml-12 mt-4">
             <div className="flex items-center justify-end">
               <Link

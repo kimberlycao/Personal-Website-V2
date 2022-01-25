@@ -24,20 +24,21 @@ const NavDropdown = ({ isOpen, toggle }) => {
         <span className="text-pink-400">2. </span>
         Projects
       </Link>
-      <Link
-        className="p-4 text-white hover:text-pink-400 font-roboto"
-        to="/blog"
-      >
-        <span className="text-pink-400">3. </span>
-        Blog
-      </Link>
+
       <Link
         className="p-4 text-white hover:text-pink-400 font-roboto"
         to="/contact"
       >
-        <span className="text-pink-400">4. </span>
+        <span className="text-pink-400">3. </span>
         Contact
       </Link>
+      {/* <Link
+        className="p-4 text-white hover:text-pink-400 font-roboto"
+        to="/blog"
+      >
+        <span className="text-pink-400">4. </span>
+        Blog
+      </Link> */}
       <Link
         className="p-4"
         to="/static/KimberlyCaoResume2021.pdf"

@@ -46,9 +46,13 @@ const ProjectsList = () => {
   if (!projects) return null;
 
   return (
-    <div className="p-4">
+    <div className="p-14">
       <div className="flex mb-5">
-        <AnimatedHeader word={"Projects"} />
+        <AnimatedHeader word={"Things"} />
+        <span className="w-3" />
+        <AnimatedHeader word={"I've"} />
+        <span className="w-3" />
+        <AnimatedHeader word={"Built"} />
       </div>
       <p className="font-source text-white lg:text-lg md:text-lg sm:text-md text-sm mb-5">
         Learn more by clicking on the Github/Devpost link!

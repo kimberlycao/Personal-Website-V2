@@ -24,9 +24,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="m-5">
-      <div className="pb-4 flex">
-        <AnimatedHeader word={"Contact"} />
+    <div className="m-14">
+      <div className="pb-5 flex">
+        <AnimatedHeader word={"Get"} />
+        <span className="w-3" />
+        <AnimatedHeader word={"In"} />
+        <span className="w-3" />
+        <AnimatedHeader word={"Touch"} />
       </div>
       <div className="font-source text-white lg:text-lg md:text-lg sm:text-md text-sm mb-5">
         Have a question? Send me a message and I'll get back to you!
