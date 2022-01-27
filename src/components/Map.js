@@ -20,7 +20,7 @@ function Map() {
     <ReactMapGL
       {...viewport}
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
-      mapboxApiAccessToken="pk.eyJ1Ijoia2ltYmVybHljYW8xMyIsImEiOiJja3l3YTBrYzgwNmF4Mm5vOXNuMm5qdHRkIn0.GSwQ7W1kF3osai0yEXCXJA"
+      mapboxApiAccessToken="sk.eyJ1Ijoia2ltYmVybHljYW8xMyIsImEiOiJja3l3ZDRiaGEwM21tMnZwY2hicnQzd3E0In0.6CahC1M32eOYsAQlPflUfw"
       mapStyle="mapbox://styles/kimberlycao13/ckytceejh000914qf0kn5d87y"
     >
       <Marker latitude={myLocation.latitude} longitude={myLocation.longitude}>
