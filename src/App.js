@@ -29,7 +29,7 @@ function App() {
   });
 
   return (
-    <Router basename="/Personal-Website-V2">
+    <Router>
       <Navbar toggle={toggle} />
       <NavDropdown isOpen={isOpen} toggle={toggle} />
       <SocialMediaLinks />
