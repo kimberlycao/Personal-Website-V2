@@ -32,7 +32,7 @@ const Home = () => {
       <div className="min-h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
         <div className="mx-16 min-h-screen flex flex-col justify-center items-start">
           <div>
-            <h1 className="lg:text-8xl sm:text-7xl text-5xl text-blue-400 font-roboto">
+            <h1 className="lg:text-8xl sm:text-7xl text-5xl text-pink-400 font-roboto">
               Hi, <br /> I'm Kimberly, <br />
             </h1>
             <h1 className="lg:text-6xl sm:text-5xl text-3xl text-pink-300 font-roboto">
