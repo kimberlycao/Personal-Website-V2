@@ -7,7 +7,7 @@ const About = () => {
   return (
     <>
       <div className="min-h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
-        <div className="min-h-screen flex flex-col justify-center items-center mx-14">
+        <div className="min-h-screen flex flex-col justify-center items-center mx-16">
           <div>
             <div className="pb-6 flex">
               <AnimatedHeader word={"Who"} />

@@ -30,7 +30,7 @@ const Home = () => {
   return (
     <>
       <div className="min-h-screen flex-col justify-center items-center grid md:grid-cols-2 grid-cols-1 bg-my-gray">
-        <div className="mx-12 min-h-screen flex flex-col justify-center items-start">
+        <div className="mx-14 min-h-screen flex flex-col justify-center items-start">
           <div>
             <h1 className="lg:text-8xl sm:text-7xl text-5xl text-pink-400 font-roboto">
               Hi, <br /> I'm Kimberly, <br />
@@ -44,7 +44,7 @@ const Home = () => {
             <ResumeButton />
           </div>
         </div>
-        <div className="min-h-screen flex-col justify-center items-center md:p-12 p-4 overflow-hidden flex">
+        <div className="min-h-screen flex-col justify-center items-center md:p-12 p-12 overflow-hidden flex">
           <div className="flex relative w-full max-w-lg items-center">
             <AnimatedBackground />
             <img
