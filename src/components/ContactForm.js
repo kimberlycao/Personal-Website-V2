@@ -1,7 +1,9 @@
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import AnimatedHeader from "./AnimatedHeader";
 
 const ContactForm = () => {
+  const [messageSent, setMessageSent] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -15,12 +17,66 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setMessageSent(true);
         },
         (error) => {
           console.log(error.text);
         }
       );
     e.target.reset();
+  };
+
+  const Alert = () => {
+    const [showAlert, setShowAlert] = useState(true);
+    return (
+      <>
+        {showAlert ? (
+          <div className="text-white font-semibold px-6 py-4 border-0 rounded relative my-6 bg-pink-400 float">
+            <span className="text-xl inline-block mr-5 align-middle">
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+            </span>
+            <span className="inline-block align-middle mr-8">
+              Your message was sent successfully!
+            </span>
+            <button
+              className="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none"
+              onClick={() => {
+                setShowAlert(false);
+                setMessageSent(false);
+              }}
+            >
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </button>
+          </div>
+        ) : null}
+      </>
+    );
   };
 
   return (
@@ -97,7 +153,7 @@ const ContactForm = () => {
         <div>
           <div className="md:w-1/3">
             <button
-              className="shadow text-my-gray hover:text-pink-400 focus:shadow-outline focus:outline-none bg-pink-400 hover:bg-my-gray font-bold py-2 px-4 rounded-full"
+              className="shadow text-white hover:text-pink-400 focus:shadow-outline focus:outline-none bg-pink-400 hover:bg-my-gray font-semibold py-2 px-4 rounded-full"
               type="submit"
             >
               Send Message
@@ -105,6 +161,7 @@ const ContactForm = () => {
           </div>
           <div className="md:w-2/3"></div>
         </div>
+        {messageSent ? <Alert /> : null}
       </form>
     </div>
   );
