@@ -20,7 +20,7 @@ function Map() {
     <ReactMapGL
       {...viewport}
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
-      mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+      mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_CUSTOM_TOKEN}
       mapStyle="mapbox://styles/kimberlycao13/ckytceejh000914qf0kn5d87y"
     >
       <Marker latitude={myLocation.latitude} longitude={myLocation.longitude}>
@@ -39,7 +39,7 @@ function Map() {
           </svg>
         </div>
       </Marker>
-      <div className="text-pink-700 bg-pink-200 hover:bg-pink-300 font-roboto p-6 rounded-sm m-6 float-right hidden sm:block">
+      <div className="text-pink-700 bg-pink-200 hover:bg-pink-300 font-roboto rounded-sm m-6 p-6 float-left hidden md:block">
         {myLocation.description}
       </div>
     </ReactMapGL>

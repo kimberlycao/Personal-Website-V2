@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="m-14">
+    <div className="m-8">
       <div className="pb-5 flex">
         <AnimatedHeader word={"Get"} />
         <span className="w-3" />
