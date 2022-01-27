@@ -33,7 +33,8 @@ const ContactForm = () => {
         <AnimatedHeader word={"Touch"} />
       </div>
       <div className="font-source text-white lg:text-lg md:text-lg sm:text-md text-sm mb-5">
-        Have a question? Send me a message and I'll get back to you!
+        Have a question? Send me a message and I'll get back to you! Feel free
+        to leave your LinkedIn so we can keep in touch.
       </div>
       <form className="w-full max-w-lg" onSubmit={sendEmail}>
         <div className="flex flex-wrap -mx-3 mb-6">
