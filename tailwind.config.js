@@ -7,6 +7,7 @@ module.exports = {
         source: "'Source Sans Pro', sans-serif",
         karla: "'Karla', sans-serif",
         lato: "'Lato', sans-serif",
+        firaMono: "'Fira Mono', monospace",
       },
       colors: {
         "my-gray": "#0c0c0c",
