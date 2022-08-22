@@ -83,7 +83,7 @@ const Navbar = ({ toggle }) => {
             <div className="flex items-center justify-end">
               <Link
                 className="p-4"
-                to="/static/KimberlyCaoResume2021.pdf"
+                to="/static/KimberlyCaoResume2022.pdf"
                 target="_blank"
                 download
               >

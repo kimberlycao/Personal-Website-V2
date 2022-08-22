@@ -19,6 +19,8 @@ const SkillsCloud = () => {
     "Dart",
     "Bootstrap",
     "TailwindCSS",
+    "Express",
+    "Node",
   ];
 
   useEffect(() => {

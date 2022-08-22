@@ -17,19 +17,18 @@ const About = () => {
               <AnimatedHeader word={"I"} />
             </div>
             <p className="font-source text-white lg:text-lg sm:text-md">
-              Hi there! My name is Kimberly and I'm a final year student at the
-              University of Toronto and this year's UTM Robotics' projects
-              coordinator.
+              Hi there! My name is Kimberly and I'm a University of Toronto
+              alumni. I studied computer science and statistics in university -
+              the perfect combination to compliment my interest in machine
+              learning.
               <br />
               <br />I enjoy attending hackathons and am always looking for ways
-              to add to my skillset. Currently, I'm learning C and expanding my
-              knowledge in deep learning and neural networks. I'm also working
-              on a few projects in my spare time!
+              to add to my skillset. I'm currently practicing Express and Node.
               <br />
               <br />
-              Outside of programming, my hobbies include baking, hiking and
-              watching reruns of The Office. I also enjoy playing Tetris and
-              Teamfight Tactics.
+              Outside of programming, my hobbies include baking, hiking,
+              paddling and watching reruns of The Office. I also enjoy playing
+              Tetris and Teamfight Tactics.
             </p>
             <div className="text-pink-400 pt-6 font-source lg:text-lg sm:text-md">
               <Link to="/projects">Check out my projects!</Link>
